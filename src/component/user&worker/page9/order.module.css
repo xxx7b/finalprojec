@@ -1,0 +1,167 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .row:hover {
+    background-color: #ddd;
+  }
+  
+.table th, .table td {
+    text-align: center;
+  }
+  
+.table th {
+    background-color: #333333d7;
+    color: black;
+  }
+  
+.button {
+    margin-right: 5px;
+  }
+  
+  .sec{
+    background-color:white;
+    color: black;
+    padding: 40px 40px;
+    margin: 15px ;
+  }
+  .sec h1{
+    padding: 10px 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.sec p{
+font-size: 14px;
+margin-bottom: 20px;
+}
+
+.sec button{
+  padding: 18px 70px;
+  display: block;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin: 30px auto 10px;
+}
+.secworker{
+  background-color:white;
+  color: black;
+  padding: 40px 40px;
+  margin: 15px ;
+}
+.secworker button{
+  padding: 10px;
+  /* display: block; */
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  margin:10px ;
+}
+ .secworker .goback{
+  padding: 18px 70px;
+  display: block;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  font-size: 14px;
+  margin: 30px auto 10px;
+  
+}
+.secworker h2{
+  padding: 10px;
+  font-size: 25px;
+  margin:0 10px 10px;
+  text-transform: capitalize;
+}
+
+.secform{
+  background-color:white;
+  color: black;
+  padding: 40px 40px;
+  margin: 15px ;
+}
+.secform .content2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 14px;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+.secform .content2 > div{
+  padding: 20px;
+  background-color: white;
+  width: fit-content;
+  height:120px;
+}
+.secform .content2  label{
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: block;
+}
+.secform .content2  input{
+border: 2px solid #ddd;
+width:500px;
+border-radius: 5px;
+padding: 7px 60px 15px 5px;
+}
+.secform h2{
+  padding: 10px;
+  font-size: 25px;
+  margin:0 10px 10px;
+  text-transform: capitalize;
+}
+.secworker .continer2 button{
+  padding: 15px 10px;
+  width: 200px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  font-size: 14px;
+}
+.secform .buttons{
+  display:flex;
+  justify-content: center;
+}
+.secform .buttons button{
+  padding: 18px 70px;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  font-size: 14px;
+  margin:10px 30px;
+  
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+}
+
+.table th {
+  background-color: #ddd;
+}
+.margn{
+  margin: 25px ;
+}

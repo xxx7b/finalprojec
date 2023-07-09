@@ -1,0 +1,18 @@
+.sec{
+    background-color:white;
+    color: black;
+    padding: 40px 40px;
+    margin: 15px ;
+}
+.margn{
+  margin: 25px ;
+}
+.sec h2{
+    padding: 10px 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.sec p{
+font-size: 14px;
+margin-bottom: 20px;
+}

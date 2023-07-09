@@ -1,0 +1,70 @@
+.sec{
+    background-color:white;
+    color: black;
+    padding: 40px 40px;
+    margin: 15px ;
+}
+.margn{
+  margin: 25px ;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.inputcontiner{
+    margin-top: 20px;
+}
+.sec h2{
+    padding: 10px;
+    font-size: 25px;
+    margin:0 10px 10px;
+    text-transform: capitalize;
+  }
+  
+  .sec p{
+    font-size: 15px;
+    margin:10px 0 40px;
+    color:rgba(0, 0, 0, 0.587);
+    text-transform: capitalize;
+  }
+  .content label
+  {
+    margin:7px;
+    font-size: 14px;
+    display: block;
+    font-weight: 600;
+  }
+  .content label span
+  {
+    margin: 0 6px;
+    color:rgba(0, 0, 0, 0.587);
+  }
+  .sec button{
+    padding: 18px 70px;
+    display: block;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 30px auto 10px;
+  }
+
+  .content input{
+    padding: 10px 180px 10px 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    }
+    
+.content select{
+    border: 2px solid #ddd;
+    width: 550px;
+    border-radius: 5px;
+    padding: 5px 60px 15px 5px;
+    }
+.content input:focus{
+    border: 2px solid gray;
+}
